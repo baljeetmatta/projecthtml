@@ -1,0 +1,57 @@
+#topbar{
+    padding:15px;
+    padding-left:55px;
+    padding-right:55px;
+
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #C5A461;
+}
+#topbar a{
+    text-decoration: none;
+    color:white;
+}
+#topbar a:hover{
+    text-decoration: underline;
+}
+body{
+    margin:0px;
+
+}
+.flexClass{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.border-right{
+    border-right: 1px solid white;
+    padding-right:10px;
+}
+.space{
+    justify-content: space-between;
+}
+/* Menu & Hero Section css */
+#menu-hero-section{
+padding:25px;
+background:url(../images/line-shapes.svg);
+
+}
+.menu
+{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+    margin-right:40px
+}
+.menu a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;;
+}
+.book-meeting{
+    background-color: #C5A461;
+    color:white;
+    padding:10px;
+    border-radius: 8px;;
+}
